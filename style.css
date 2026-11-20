@@ -3,3 +3,6 @@
 .floating-whatsapp,.floating-chat{position:fixed;z-index:10;right:25px;width:62px;height:62px;border-radius:50%;display:grid;place-items:center;color:#fff;border:3px solid white;transition:transform .2s}.floating-whatsapp:hover,.floating-chat:hover{transform:scale(1.08)}.floating-whatsapp{bottom:91px;background:#19c96d;font-size:25px;box-shadow:0 8px 22px #0b6b3b55}.floating-chat{bottom:20px;background:#7544e8;box-shadow:0 8px 22px #7544e855}.floating-chat svg{width:29px;height:29px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}@media(max-width:620px){.floating-whatsapp,.floating-chat{width:54px;height:54px;right:16px}.floating-whatsapp{bottom:82px}.floating-chat{bottom:18px}}
 
 .partner-strip{justify-content:center;padding:22px}.partner-image{display:block;width:min(100%,900px);height:auto;max-height:260px;object-fit:contain}
+
+.partner-strip{padding:0;border:0;box-shadow:none}.partner-image{width:100%;max-width:none;max-height:none;object-fit:contain}
+@media(max-width:620px){.partner-strip{padding:0}.partner-image{width:100%}}
