@@ -24,3 +24,13 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { rootMargin: '-30% 0px -60% 0px' });
 sections.forEach((section) => observer.observe(section));
+
+const quoteTrack = document.querySelector('.quote-track');
+if (quoteTrack && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  [...quoteTrack.children].forEach((card) => {
+    const copy = card.cloneNode(true);
+    copy.setAttribute('aria-hidden', 'true');
+    quoteTrack.append(copy);
+  });
+}
+
