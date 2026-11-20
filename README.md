@@ -15,12 +15,6 @@ Website profil dan katalog produk alat kesehatan PT. Azka Mulia International.
   <img src="assets/website-preview.png" alt="Preview website Azka Mulia International" width="100%">
 </p>
 
-<details>
-  <summary>Preview tambahan — Aegis Paint</summary>
-  <br>
-  <img src="assets/aegis-paint-preview.png" alt="Preview website Aegis Paint" width="100%">
-</details>
-
 ## Tentang proyek
 
 Website ini memperkenalkan PT. Azka Mulia International dan menyediakan informasi produk serta cara menghubungi tim perusahaan. Tampilannya dirancang agar tetap nyaman digunakan di desktop, tablet, dan ponsel.
@@ -52,7 +46,6 @@ Tidak diperlukan proses build atau instalasi dependensi.
 ```text
 .
 ├── assets/
-│   ├── aegis-paint-preview.png
 │   └── website-preview.png
 ├── index.html
 ├── script.js
